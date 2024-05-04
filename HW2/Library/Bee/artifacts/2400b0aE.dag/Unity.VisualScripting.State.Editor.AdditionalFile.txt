@@ -1,1 +1,1 @@
-/home/bilge/EscapeGame
+/home/bilge/Oyunum/CMPE585-Spring24/HW2

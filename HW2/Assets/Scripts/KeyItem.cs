@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KeyItem : MonoBehaviour
 {
-    public GameObject KeyOnPlayer;
+    public GameObject KeyOnPlayer; //Once key is on player
     public GameObject PickUpText;
     
     void Start(){

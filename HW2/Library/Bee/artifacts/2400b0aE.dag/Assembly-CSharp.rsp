@@ -347,6 +347,8 @@
 "Assets/Game Models/Ciconia Studio/_Shared Files/Scripts/Demo/FreeCamera.cs"
 "Assets/Game Models/Ciconia Studio/_Shared Files/Scripts/Demo/SuperCamera.cs"
 "Assets/Game Models/Ciconia Studio/_Shared Files/Scripts/Demo/UIButton_ShowNext.cs"
+"Assets/GameOverScreen.cs"
+"Assets/GuardCatch.cs"
 "Assets/OpenDoor.cs"
 "Assets/Patrol1.cs"
 "Assets/Patrol2.cs"
@@ -391,6 +393,8 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/TrapSpawner.cs"
+"Assets/TrapTouch.cs"
 -langversion:9.0
 
 /deterministic

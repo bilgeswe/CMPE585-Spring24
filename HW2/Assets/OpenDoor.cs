@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class OpenDoor : MonoBehaviour
 {
+    public GameOverScreen GameOverScreen;
     public PickUpKey pickUpKey;
-    public GameObject FinishText;
-
+    public string status;
     void Start()
     {
-        FinishText.SetActive(false);
+        string status = "LOOSE";
+        GameOverScreen.background.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -18,8 +19,10 @@ public class OpenDoor : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             if (pickUpKey.hasKey) // Check if the player has the key
-            {
-                FinishText.SetActive(true);
+            {   
+                string status = "WIN";
+                GameOverScreen.Setup(status);
+                GameOverScreen.background.SetActive(true);
             }
         }
     }

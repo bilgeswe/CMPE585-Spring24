@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2155671986613437731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: -19.5, z: -20.4}
-  m_LocalScale: {x: 70.6014, y: 3.1649084, z: 0.16139}
+  m_LocalPosition: {x: -2, y: -21.824999, z: -20.8}
+  m_LocalScale: {x: 70.6014, y: 3.9352899, z: 0.16139}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2390422088236798686}
@@ -124,8 +124,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2254514417686511101}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 33.7, y: -19.5, z: 14.5}
-  m_LocalScale: {x: 71.376335, y: 3.1649084, z: 0.16139}
+  m_LocalPosition: {x: 33.7, y: -22.695, z: 14.1}
+  m_LocalScale: {x: 71.376335, y: 3.9352899, z: 0.16139}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2390422088236798686}
@@ -2428,8 +2428,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5118357015753646607}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -36.7, y: -19.5, z: 15}
-  m_LocalScale: {x: 70.6014, y: 3.1649084, z: 0.16139}
+  m_LocalPosition: {x: -37.5, y: -21.9, z: 14.6}
+  m_LocalScale: {x: 70.6014, y: 3.9352899, z: 0.16139}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2390422088236798686}
@@ -2525,8 +2525,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7014840025342136262}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.4, y: -19.5, z: 49.9}
-  m_LocalScale: {x: 70.6014, y: 3.1649084, z: 0.16139}
+  m_LocalPosition: {x: -1.4, y: -22.446999, z: 49.5}
+  m_LocalScale: {x: 70.6014, y: 3.9352899, z: 0.16139}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2390422088236798686}
@@ -2606,7 +2606,7 @@ GameObject:
   - component: {fileID: 6844167578818944854}
   - component: {fileID: 1449480000357295760}
   - component: {fileID: 8564171465501800496}
-  - component: {fileID: 6058288552081539491}
+  - component: {fileID: 5201324739635804006}
   m_Layer: 0
   m_Name: BigPlane
   m_TagString: Untagged
@@ -2623,7 +2623,7 @@ Transform:
   m_GameObject: {fileID: 7907165830633665855}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -2.5, y: -23.1, z: 14.5}
-  m_LocalScale: {x: 71.376335, y: 70.774826, z: 5.7178783}
+  m_LocalScale: {x: 71.376335, y: 70.774826, z: 1.9674076}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2390422088236798686}
@@ -2679,7 +2679,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6058288552081539491
+--- !u!65 &5201324739635804006
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2690,5 +2690,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+  m_Center: {x: 0.0000000018626451, y: -0.000000014901161, z: 0}

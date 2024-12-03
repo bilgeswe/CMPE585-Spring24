@@ -1,2 +1,2 @@
 # CMPE585-Spring24
-SWE 585- Game Programming Bilge Akpulat
+BOUN CMPCourse: SWE 585 - Game Programming with Unity Game Engine - Bilge Akpulat's Repo
